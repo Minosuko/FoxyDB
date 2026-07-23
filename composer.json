@@ -1,0 +1,22 @@
+{
+    "name": "foxydb/library",
+    "description": "PHP connector library for the FoxyDB database server",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "php-64bit": "^8.2",
+        "ext-json": "*",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FoxyDB\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "@php tests/run.php"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
