@@ -2,7 +2,7 @@
 
 This directory contains the reusable PHP connector for FoxyDB binary protocol version 2. It provides a MySQL-style connection and query API without depending on the command-line client or server source tree.
 
-Applications that do not need a database daemon can instead use [`../serverless`](../serverless/README.md), which opens a local FoxyDB bundle directly in the PHP process.
+Applications that do not need a database daemon can instead use [FoxyDB-serverless](https://github.com/Minosuko/FoxyDB-serverless), which opens a local FoxyDB bundle directly in the PHP process.
 
 ## Requirements
 
