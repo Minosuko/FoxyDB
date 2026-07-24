@@ -14,7 +14,7 @@ Applications that do not need a database daemon can instead use [FoxyDB-serverle
 Install the package with Composer:
 
 ```console
-composer require foxydb/library
+composer require Minosuko/foxydb
 ```
 
 For a repository checkout without Composer, load `library/src/Autoloader.php`.
