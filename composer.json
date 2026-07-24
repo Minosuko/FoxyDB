@@ -1,5 +1,5 @@
 {
-    "name": "foxydb/library",
+    "name": "Minosuko/foxydb",
     "description": "PHP connector library for the FoxyDB database server",
     "type": "library",
     "require": {
